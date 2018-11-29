@@ -2153,7 +2153,6 @@ google({ query: input, disableConsole: true }).then(results => {
 /////////////////////////////////////////////////////////////////////////ALPHA / ALPHA CODES / ALPHA CODES///////////////////////////
 
 /*awsm*/
-/
 let points = JSON.parse(fs.readFileSync('../json/awsm.json', 'utf8'));
 client.on('message', message => {
 if (!points[message.author.id]) points[message.author.id] = {
